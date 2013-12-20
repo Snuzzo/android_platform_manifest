@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="gh"
+           fetch="https://github.com/" />
+
   <remote  name="github"
            fetch="../IllusionRomz/"
            review="illugerrit.bricked.de" />
+
   <default revision="illusion-4.4"
            remote="github"
            sync-j="4" />
 
+  <!-- Manifest -->
   <project path="manifest" name="android_platform_manifest" />
 
+  <!-- Vendors -->
+  <project path="vendor/illusion" name="android_platform_vendor_illusion" />
+  <project path="vendor/lge" name="android_platform_vendor_lge" />
+  <project path="vendor/broadcom" name="android_platform_vendor_broadcom" />
+  <project path="vendor/qcom" name="android_platform_vendor_qcom" />
+  <project path="vendor/asus" name="android_platform_vendor_asus" />
+  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="gh" revision="cm-11.0" />
+
+  <!-- Illusion Settings -->
+  <project path="packages/apps/IllusionSettings" name="android_platform_packages_apps_IllusionSettings" />
+
+  <!-- AOSP repos -->
   <project path="build" name="android_platform_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
