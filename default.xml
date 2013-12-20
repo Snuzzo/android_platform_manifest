@@ -75,7 +75,7 @@
   <project path="external/chromium_org/testing/gtest" name="android_platform_external_chromium_org_testing_gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="android_platform_external_chromium_org_third_party_WebKit" />
   <project path="external/chromium_org/third_party/angle_dx11" name="android_platform_external_chromium_org_third_party_angle_dx11" />
-  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="android_platform_external_chromium_org_third_party_eyesfree_src_android_java_src_com_googlecode_eyesfree_braille" />
+  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="android_platform_external_chromium_org_third_party_eyesfree_src_android_java_src_com_googlecode_eyes" />
   <project path="external/chromium_org/third_party/freetype" name="android_platform_external_chromium_org_third_party_freetype" />
   <project path="external/chromium_org/third_party/icu" name="android_platform_external_chromium_org_third_party_icu" />
   <project path="external/chromium_org/third_party/leveldatabase/src" name="android_platform_external_chromium_org_third_party_leveldatabase_src" />
