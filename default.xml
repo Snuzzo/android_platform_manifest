@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="illusion"
-           fetch="https://github.com/IllusionRomz"
+  <remote  name="github"
+           fetch="../IllusionRomz/"
            review="illugerrit.bricked.de" />
   <default revision="illusion-4.4"
-           remote="illusion"
+           remote="github"
            sync-j="4" />
 
   <project path="build" name="platform_build" groups="pdk" >
