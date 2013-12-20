@@ -8,6 +8,8 @@
            remote="github"
            sync-j="4" />
 
+  <project path="manifest" name="android_platform_manifest" />
+
   <project path="build" name="android_platform_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
