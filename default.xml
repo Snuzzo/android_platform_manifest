@@ -364,7 +364,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="android_platform_packages_wallpapers_MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="android_platform_packages_wallpapers_NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="android_platform_packages_wallpapers_PhaseBeam" />
-  <project path="pdk" name="android_platform/pdk" groups="pdk" />
+  <project path="pdk" name="android_platform_pdk" groups="pdk" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="android_platform_prebuilts_clang_darwin-x86_3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="android_platform_prebuilts_clang_darwin-x86_3.2" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/arm/3.3" name="android_platform_prebuilts_clang_darwin-x86_arm_3.3" groups="darwin,arm" />
