@@ -306,6 +306,7 @@
   <project path="hardware/qcom/wlan" name="IllusionRom/android_platform_hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="IllusionRom/android_platform_hardware_ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="IllusionRom/android_platform_hardware_samsung_slsi_exynos5" groups="exynos5" />
+  <project path="hardware/samsung" name="IllusionRom/android_platform_hardware_samsung" />
   <project path="hardware/ti/omap3" name="IllusionRom/android_platform_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="IllusionRom/android_platform_hardware_ti_omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="IllusionRom/android_platform_hardware_ti_wlan" />
@@ -376,7 +377,7 @@
   <project path="packages/wallpapers/Basic" name="IllusionRom/android_platform_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="IllusionRom/android_platform_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="IllusionRom/android_platform_packages_wallpapers_HoloSpiral" />
-  <project path="packages/wallpapers_LivePicker" name="IllusionRom/android_platform_packages_wallpapers_LivePicker" />
+  <project path="packages/wallpapers/LivePicker" name="IllusionRom/android_platform_packages_wallpapers_LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="IllusionRom/android_platform_packages_wallpapers_MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="IllusionRom/android_platform_packages_wallpapers_MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="IllusionRom/android_platform_packages_wallpapers_NoiseField" />
