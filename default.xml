@@ -40,10 +40,10 @@
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="gh" revision="cm-11.0"/>
 
   <!-- Others -->
-  <project path="hardware/ril" name="CyanogenMod/android_platform_hardware_ril" remote="gh" revision="cm-11.0" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="gh" revision="cm-11.0" />
   <project path="packages/apps/PerformanceControl" name="omnirom/android_packages_apps_PerformanceControl" remote="gh" revision="android-4.4" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="cm-11.0" />
-  <project path="system/vold" name="CyanogenMod/android_platform_system_vold" remote="gh" revision="cm-11.0"/>
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="cm-11.0"/>
 
   <!-- AOSP repos -->
   <project path="build" name="IllusionRom/android_platform_build" groups="pdk" >
