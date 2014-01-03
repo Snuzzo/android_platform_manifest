@@ -35,6 +35,16 @@
   <!-- Custom Kernels -->
   <project path="kernel/htc/evitaul" name="aznrice/Evita_UL_422-JB" remote="gh" revision="kk-mr1"/>
 
+  <!-- Superuser -->
+  <project path="external/koush/Superuser" name="IllusionRom/android_platform_external_koush_superuser" />
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="gh" revision="cm-11.0"/>
+
+  <!-- Others -->
+  <project path="hardware/ril" name="CyanogenMod/android_platform_hardware_ril" remote="gh" revision="cm-11.0" />
+  <project path="packages/apps/PerformanceControl" name="omnirom/android_packages_apps_PerformanceControl" remote="gh" revision="android-4.4" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="cm-11.0" />
+  <project path="system/vold" name="CyanogenMod/android_platform_system_vold" remote="gh" revision="cm-11.0"/>
+
   <!-- AOSP repos -->
   <project path="build" name="IllusionRom/android_platform_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -90,6 +100,7 @@
   <project path="external/bluetooth/bluedroid" name="IllusionRom/android_platform_external_bluetooth_bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="IllusionRom/android_platform_external_bouncycastle" />
   <project path="external/bsdiff" name="IllusionRom/android_platform_external_bsdiff" groups="pdk" />
+  <project path="external/busybox" name="IllusionRom/android_platform_external_busybox" />
   <project path="external/bzip2" name="IllusionRom/android_platform_external_bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="IllusionRom/android_platform_external_ceres-solver" />
   <project path="external/checkpolicy" name="IllusionRom/android_platform_external_checkpolicy" groups="pdk" />
@@ -223,6 +234,7 @@
   <project path="external/openssh" name="IllusionRom/android_platform_external_openssh" />
   <project path="external/openssl" name="IllusionRom/android_platform_external_openssl" groups="pdk" />
   <project path="external/oprofile" name="IllusionRom/android_platform_external_oprofile" />
+  <project path="external/pigz" name="IllusionRom/android_platform_external_pigz" />
   <project path="external/pixman" name="IllusionRom/android_platform_external_pixman" />
   <project path="external/ppp" name="IllusionRom/android_platform_external_ppp" />
   <project path="external/proguard" name="IllusionRom/android_platform_external_proguard" groups="pdk-java" />
@@ -313,7 +325,6 @@
   <project path="hardware/qcom/power" name="IllusionRom/android_platform_hardware_qcom_power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="IllusionRom/android_platform_hardware_qcom_sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="IllusionRom/android_platform_hardware_qcom_wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="IllusionRom/android_platform_hardware_ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="IllusionRom/android_platform_hardware_samsung_slsi_exynos5" groups="exynos5" />
   <project path="hardware/samsung" name="IllusionRom/android_platform_hardware_samsung" />
   <project path="hardware/ti/omap3" name="IllusionRom/android_platform_hardware_ti_omap3" />
@@ -441,11 +452,9 @@
   <project path="prebuilts/tools" name="IllusionRom/android_platform_prebuilts_tools" groups="pdk,tools" />
   <project path="sdk" name="IllusionRom/android_platform_sdk" />
   <project path="system/core" name="IllusionRom/android_platform_system_core" groups="pdk" />
-  <project path="system/extras" name="IllusionRom/android_platform_system_extras" groups="pdk" />
   <project path="system/media" name="IllusionRom/android_platform_system_media" groups="pdk" />
   <project path="system/netd" name="IllusionRom/android_platform_system_netd" groups="pdk" />
   <project path="system/security" name="IllusionRom/android_platform_system_security" groups="pdk" />
-  <project path="system/vold" name="IllusionRom/android_platform_system_vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="IllusionRom/android_platform_tools_adt_eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="IllusionRom/android_platform_tools_adt_idea" groups="notdefault,tools" />
   <project path="tools/base" name="IllusionRom/android_platform_tools_base" groups="notdefault,tools" />
