@@ -22,28 +22,41 @@
   <project path="vendor/qcom" name="IllusionRom/android_platform_vendor_qcom" />
   <project path="vendor/asus" name="IllusionRom/android_platform_vendor_asus" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="gh" revision="cm-11.0" />
-  <project path="vendor/htc" name="intervigilium/proprietary_vendor_htc" remote="gh" revision="cm-11.0" />
+  <project path="vendor/htc" name="IllusionRom/android_platform_vendor_htc"/>
 
-  <!-- Illusion Settings -->
+  <!-- Illusion Additions -->
   <project path="packages/apps/IllusionSettings" name="IllusionRom/android_platform_packages_apps_IllusionSettings" />
+  <project path="packages/apps/Torch" name="IllusionRom/android_platform_packages_apps_Torch" />
+  <project path="packages/apps/IllusionPapers" name="IllusionRom/android_platform_packages_apps_IllusionPapers" />
+  <project path="packages/apps/PerformanceControl" name="IllusionRom/android_platform_packages_apps_PerformanceControl" />
 
   <!-- Non-Nexus Devices -->
-  <project path="device/htc/evita" name="IllusionRom/android_device_htc_evita"/>
-  <project path="device/htc/s4-common" name="IllusionRom/android_device_htc_s4-common"/>
-  <project path="device/htc/msm8960-common" name="IllusionRom/android_device_htc_msm8960-common"/>
+  <project path="device/htc/evita" name="IllusionRom/android_device_htc_evita" />
+  <project path="device/htc/s4-common" name="IllusionRom/android_device_htc_s4-common" />
+  <project path="device/htc/msm8960-common" name="IllusionRom/android_device_htc_msm8960-common" />
 
+  <!--Nexus Devices -->
+  <project path="device/asus/deb" name="IllusionRom/android_device_asus_deb" groups="device,flo" />
+  <project path="device/asus/flo" name="IllusionRom/android_device_asus_flo" groups="device,flo" />
+  <project path="device/asus/grouper" name="IllusionRom/android_device_asus_grouper" groups="device,grouper" />
+  <project path="device/asus/tilapia" name="IllusionRom/android_device_asus_tilapia" groups="device,grouper" />
+  <project path="device/lge/hammerhead" name="IllusionRom/android_device_lge_hammerhead" groups="device,hammerhead" />
+  <project path="device/lge/hammerhead-kernel" name="IllusionRom/android_device_lge_hammerhead-kernel" groups="device,hammerhead" />
+  <project path="device/lge/mako" name="IllusionRom/android_device_lge_mako" groups="device,mako" />
+  
   <!-- Custom Kernels -->
-  <project path="kernel/htc/evitaul" name="aznrice/Evita_UL_422-JB" remote="gh" revision="kk-mr1"/>
+  <project path="kernel/asus/bricked" name="showp1984/bricked-flo" remote="gh" revision="master" />
+  <project path="kernel/htc/evitaul" name="aznrice/Evita_UL_422-JB" remote="gh" revision="kk-mr1" />
+  <project path="kernel/lge/AK" name="IllusionRom/AK-Illusion" />
 
   <!-- Superuser -->
   <project path="external/koush/Superuser" name="IllusionRom/android_platform_external_koush_superuser" />
-  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="gh" revision="cm-11.0"/>
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="gh" revision="cm-11.0" />
 
   <!-- Others -->
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="gh" revision="cm-11.0" />
-  <project path="packages/apps/PerformanceControl" name="omnirom/android_packages_apps_PerformanceControl" remote="gh" revision="android-4.4" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="cm-11.0" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="cm-11.0"/>
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="cm-11.0" />
 
   <!-- AOSP repos -->
   <project path="build" name="IllusionRom/android_platform_build" groups="pdk" >
@@ -62,11 +75,6 @@
   <project path="developers/docs" name="IllusionRom/android_platform_developers_docs" />
   <project path="developers/samples/android" name="IllusionRom/android_platform_developers_samples_android" />
   <project path="development" name="IllusionRom/android_platform_development" />
-  <project path="device/asus/deb" name="IllusionRom/android_device_asus_deb" groups="device,flo" />
-  <project path="device/asus/flo" name="IllusionRom/android_device_asus_flo" groups="device,flo" />
-  <project path="device/asus/flo-kernel" name="IllusionRom/android_device_asus_flo-kernel" groups="device,flo" />
-  <project path="device/asus/grouper" name="IllusionRom/android_device_asus_grouper" groups="device,grouper" />
-  <project path="device/asus/tilapia" name="IllusionRom/android_device_asus_tilapia" groups="device,grouper" />
   <project path="device/common" name="IllusionRom/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="IllusionRom/android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="IllusionRom/android_device_generic_common" groups="pdk" />
@@ -78,10 +86,6 @@
   <project path="device/generic/x86" name="IllusionRom/android_device_generic_x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="IllusionRom/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="IllusionRom/android_device_google_accessory_demokit" groups="device" />
-  <project path="device/lge/hammerhead" name="IllusionRom/android_device_lge_hammerhead" groups="device,hammerhead" />
-  <project path="device/lge/hammerhead-kernel" name="IllusionRom/android_device_lge_hammerhead-kernel" groups="device,hammerhead" />
-  <project path="device/lge/mako" name="IllusionRom/android_device_lge_mako" groups="device,mako" />
-  <project path="device/lge/mako-kernel" name="IllusionRom/android_device_lge_mako-kernel" groups="device,mako" />
   <project path="device/sample" name="IllusionRom/android_device_sample" groups="pdk" />
   <project path="device/samsung/manta" name="IllusionRom/android_device_samsung_manta" groups="device,manta" />
   <project path="docs/source.android.com" name="IllusionRom/android_platform_docs_source.android.com" />
@@ -336,6 +340,7 @@
   <project path="ndk" name="IllusionRom/android_platform_ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="IllusionRom/android_platform_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="IllusionRom/android_platform_packages_apps_Bluetooth" />
+  <project path="packages/apps/BluetoothExt" name="IllusionRom/android_platform_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="IllusionRom/android_platform_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="IllusionRom/android_platform_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="IllusionRom/android_platform_packages_apps_Calendar" />
