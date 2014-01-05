@@ -29,6 +29,7 @@
   <project path="packages/apps/Torch" name="IllusionRom/android_platform_packages_apps_Torch" />
   <project path="packages/apps/IllusionPapers" name="IllusionRom/android_platform_packages_apps_IllusionPapers" />
   <project path="packages/apps/PerformanceControl" name="IllusionRom/android_platform_packages_apps_PerformanceControl" />
+  <project path="prebuilts/gcc/linux-x86/arm/custom-4.7" name="IllusionRom/android_platform_prebuilts_gcc_linux-x86_arm_boosted-arm-eabi-4.7" />
 
   <!-- Non-Nexus Devices -->
   <project path="device/htc/evita" name="IllusionRom/android_device_htc_evita" />
