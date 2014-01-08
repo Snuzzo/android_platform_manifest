@@ -59,6 +59,11 @@
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="cm-11.0" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="cm-11.0" />
 
+  <!-- Caf -->
+  <project path="hardware/qcom/audio-caf" name="IllusionRom/android_platform_hardware_qcom_audio-caf" />
+  <project path="hardware/qcom/display-caf" name="IllusionRom/android_platform_hardware_qcom_display-caf" />
+  <project path="hardware/qcom/media-caf" name="IllusionRom/android_platform_hardware_qcom_media-caf" />
+
   <!-- AOSP repos -->
   <project path="build" name="IllusionRom/android_platform_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
