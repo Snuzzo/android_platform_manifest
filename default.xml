@@ -324,7 +324,7 @@
   <project path="hardware/invensense" name="IllusionRom/android_platform_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" name="IllusionRom/android_platform_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="IllusionRom/android_platform_hardware_libhardware_legacy" groups="pdk" />
-  <project path="hardware/qcom_audio" name="IllusionRom/android_platform_hardware_qcom_audio" groups="qcom" />
+  <project path="hardware/qcom/audio" name="IllusionRom/android_platform_hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="IllusionRom/android_platform_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="IllusionRom/android_platform_hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="IllusionRom/android_platform_hardware_qcom_display" groups="qcom" />
