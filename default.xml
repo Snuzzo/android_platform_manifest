@@ -46,7 +46,7 @@
   <project path="device/lge/mako" name="IllusionRom/android_device_lge_mako" groups="device,mako" />
   
   <!-- Custom Kernels -->
-  <project path="kernel/asus/bricked" name="showp1984/bricked-flo" remote="gh" revision="master" />
+  <project path="kernel/asus/bricked" name="IllusionRom/bricked-flo" />
   <project path="kernel/htc/evitaul" name="aznrice/Evita_UL_422-JB" remote="gh" revision="kk-mr1" />
   <project path="kernel/lge/AK" name="IllusionRom/AK-Illusion" />
 
