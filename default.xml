@@ -17,12 +17,10 @@
 
   <!-- Vendors -->
   <project path="vendor/illusion" name="IllusionRom/android_platform_vendor_illusion" />
-  <project path="vendor/lge" name="IllusionRom/android_platform_vendor_lge" />
+  <project path="vendor/lge" name="IllusionRom/proprietary_vendor_lge" />
   <project path="vendor/broadcom" name="IllusionRom/android_platform_vendor_broadcom" />
   <project path="vendor/qcom" name="IllusionRom/android_platform_vendor_qcom" />
   <project path="vendor/asus" name="IllusionRom/android_platform_vendor_asus" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="gh" revision="cm-11.0" />
-  <project path="vendor/htc" name="IllusionRom/android_platform_vendor_htc"/>
 
   <!-- Illusion Additions -->
   <project path="packages/apps/IllusionSettings" name="IllusionRom/android_platform_packages_apps_IllusionSettings" />
@@ -32,23 +30,12 @@
   <project path="prebuilts/gcc/linux-x86/arm/custom-4.7" name="IllusionRom/android_platform_prebuilts_gcc_linux-x86_arm_boosted-arm-eabi-4.7" />
 
   <!-- Non-Nexus Devices -->
-  <project path="device/htc/evita" name="IllusionRom/android_device_htc_evita" />
-  <project path="device/htc/s4-common" name="IllusionRom/android_device_htc_s4-common" />
-  <project path="device/htc/msm8960-common" name="IllusionRom/android_device_htc_msm8960-common" />
 
   <!--Nexus Devices -->
-  <project path="device/asus/deb" name="IllusionRom/android_device_asus_deb" groups="device,flo" />
-  <project path="device/asus/flo" name="IllusionRom/android_device_asus_flo" groups="device,flo" />
-  <project path="device/asus/grouper" name="IllusionRom/android_device_asus_grouper" groups="device,grouper" />
-  <project path="device/asus/tilapia" name="IllusionRom/android_device_asus_tilapia" groups="device,grouper" />
   <project path="device/lge/hammerhead" name="IllusionRom/android_device_lge_hammerhead" groups="device,hammerhead" />
-  <project path="device/lge/hammerhead-kernel" name="IllusionRom/android_device_lge_hammerhead-kernel" groups="device,hammerhead" />
-  <project path="device/lge/mako" name="IllusionRom/android_device_lge_mako" groups="device,mako" />
-  
+
   <!-- Custom Kernels -->
-  <project path="kernel/asus/bricked" name="IllusionRom/bricked-flo" />
-  <project path="kernel/htc/evitaul" name="aznrice/Evita_UL_422-JB" remote="gh" revision="kk-mr1" />
-  <project path="kernel/lge/AK" name="IllusionRom/AK-Illusion" />
+  <project path="kernel/lge/hammerhead" name="IllusionRom/android_kernel_lge_hammerhead" />
 
   <!-- Superuser -->
   <project path="external/koush/Superuser" name="IllusionRom/android_platform_external_koush_superuser" />
