@@ -338,7 +338,6 @@
   <project path="packages/apps/Browser" name="IllusionRom/android_platform_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="IllusionRom/android_platform_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="IllusionRom/android_platform_packages_apps_Calendar" />
-  <project path="packages/apps/Camera" name="IllusionRom/android_platform_packages_apps_Camera" />
   <project path="packages/apps/Camera2" name="IllusionRom/android_platform_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="IllusionRom/android_platform_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="IllusionRom/android_platform_packages_apps_CertInstaller" />
@@ -353,7 +352,6 @@
   <project path="packages/apps/HTMLViewer" name="IllusionRom/android_platform_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="IllusionRom/android_platform_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="IllusionRom/android_platform_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher2" name="IllusionRom/android_platform_packages_apps_Launcher2" />
   <project path="packages/apps/Launcher3" name="IllusionRom/android_platform_packages_apps_Launcher3" />
   <project path="packages/apps/LegacyCamera" name="IllusionRom/android_platform_packages_apps_LegacyCamera" />
   <project path="packages/apps/Mms" name="IllusionRom/android_platform_packages_apps_Mms" />
