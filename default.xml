@@ -30,8 +30,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/custom-4.7" name="IllusionRom/android_platform_prebuilts_gcc_linux-x86_arm_boosted-arm-eabi-4.7" />
   
    <!-- Illusion Vendors -->
-  <project path="vendor/illusion" name="IllusionRom/android_platform_vendor_illusion"
-  <copyfile src="build.sh" dest="rom-build.sh" />
+  <project path="vendor/illusion" name="IllusionRom/android_platform_vendor_illusion" >
+    <copyfile src="vendor/illusion/build.sh" dest="rom-build.sh" />
   </project>
 
   <!-- Non-Nexus Devices -->
