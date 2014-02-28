@@ -31,7 +31,7 @@
   
    <!-- Illusion Vendors -->
   <project path="vendor/illusion" name="IllusionRom/android_platform_vendor_illusion" >
-    <copyfile src="vendor/illusion/build.sh" dest="rom-build.sh" />
+    <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
   <!-- Non-Nexus Devices -->
