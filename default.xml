@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote fetch="https://github.com/Snuzzo/" name="snuzzo" />
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="LA.BR.1.2.3_rb1.55"/>
+  <project path="manifest" name="android_platform_manifest" remote="snuzzo" revision="caf-LA.BR.1.2.3-07210" />
   <project groups="pdk" name="device/asus/deb"/>
   <project groups="pdk" name="device/asus/flo-kernel"/>
   <project groups="pdk" name="device/asus/fugu"/>
