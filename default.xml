@@ -2,14 +2,9 @@
 <manifest>
   <remote fetch="https://github.com/Snuzzo/" name="snuzzo" />
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <remote  name="gh" fetch="https://github.com/" />
   <default remote="caf" revision="LA.BR.1.2.3_rb1.55"/>
   <project path="manifest" name="android_platform_manifest" remote="snuzzo" revision="caf-LA.BR.1.2.3-07210" />
-  <project groups="pdk" name="device/asus/deb"/>
-  <project groups="pdk" name="device/asus/flo-kernel"/>
-  <project groups="pdk" name="device/asus/fugu"/>
-  <project groups="pdk" name="device/asus/fugu-kernel"/>
-  <project groups="pdk" name="device/asus/grouper"/>
-  <project groups="pdk" name="device/asus/tilapia"/>
   <project groups="pdk-cw-fs" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
   <project groups="pdk" name="device/generic/armv7-a-neon"/>
